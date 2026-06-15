@@ -11,10 +11,23 @@
 
 /* LINKS */
 .links a {
-  margin-left: 20px;
+  background-color: #DCC7A1; /* bege */
+  color: #5E3B1F;
+
+  padding: 12px 22px;
+  border-radius: 10px;
+
   text-decoration: none;
-  color: white;
   font-weight: bold;
+
+  transition: all 0.3s ease;
+}
+
+.links a:hover {
+  background-color: #E8D8B8;
+  transform: translateY(-2px);
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 /* 📱 MOBILE */

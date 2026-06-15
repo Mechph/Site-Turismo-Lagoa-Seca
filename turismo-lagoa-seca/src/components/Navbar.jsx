@@ -8,7 +8,6 @@ export default function Navbar() {
 
       <div className="links">
         <Link to="/">Voltar a Página Inicial</Link>
-        <Link to="/pontos"></Link>
       </div>
     </nav>
   );
