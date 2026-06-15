@@ -1,10 +1,12 @@
 .navbar {
-  background-color: #8B5E3C;
-  color: white;
-  padding: 15px 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background: rgba(139,94,60,.95);
+  backdrop-filter: blur(8px);
+  padding: 20px 40px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-sizing: border-box;
 }
 
 /* LINKS */
