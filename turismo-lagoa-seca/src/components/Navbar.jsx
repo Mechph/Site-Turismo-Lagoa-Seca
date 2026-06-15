@@ -7,7 +7,7 @@ export default function Navbar() {
       <h2 className="logo">Lagoa Seca</h2>
 
       <div className="links">
-        <Link to="/">Voltar a Página Principal</Link>
+        <Link to="/">Voltar a Página Inicial</Link>
         <Link to="/pontos"></Link>
       </div>
     </nav>
